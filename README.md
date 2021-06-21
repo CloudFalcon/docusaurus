@@ -1,5 +1,7 @@
 # CloudFalcon Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a14e45e-575b-4c2d-ab81-8ff7dda69b06/deploy-status)](https://app.netlify.com/sites/cloudfalcon/deploys)
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
