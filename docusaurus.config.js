@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "CloudFalcon",
-  tagline: "DevSecOps as a Service",
+  tagline: "Automated production-grade Terraform deployments on AWS",
   url: "https://cloudfalcon.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
