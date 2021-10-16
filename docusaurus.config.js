@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "CloudFalcon",
-  tagline: "Automated production-grade Terraform deployments on AWS",
+  tagline: "Automated production-grade IaC deployments on AWS",
   url: "https://cloudfalcon.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -27,12 +27,12 @@ module.exports = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        { to: "/resume", label: "Resume", position: "left" },
         { to: "/links", label: "Links", position: "left" },
         { to: "/services", label: "Services", position: "left" },
         { to: "/podcasts", label: "Podcasts", position: "left" },
         { to: "/workshops", label: "Workshops", position: "left" },
         { to: "/slides", label: "Slides", position: "left" },
+        { to: "/resume", label: "Resume", position: "left" },
         {
           href: "https://github.com/cloudfalcon/",
           label: "GitHub",
