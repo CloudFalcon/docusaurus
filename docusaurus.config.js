@@ -32,7 +32,7 @@ module.exports = {
         { to: "/podcasts", label: "Podcasts", position: "left" },
         { to: "/workshops", label: "Workshops", position: "left" },
         { to: "/slides", label: "Slides", position: "left" },
-        { to: "/resume", label: "Resume", position: "left" },
+        { to: "/team", label: "Team", position: "left" },
         {
           href: "https://github.com/cloudfalcon/",
           label: "GitHub",
