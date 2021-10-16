@@ -27,6 +27,12 @@ module.exports = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
+        { to: "/resume", label: "Resume", position: "left" },
+        { to: "/links", label: "Links", position: "left" },
+        { to: "/services", label: "Services", position: "left" },
+        { to: "/podcasts", label: "Podcasts", position: "left" },
+        { to: "/workshops", label: "Workshops", position: "left" },
+        { to: "/slides", label: "Slides", position: "left" },
         {
           href: "https://github.com/cloudfalcon/",
           label: "GitHub",
