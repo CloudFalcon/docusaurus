@@ -5,7 +5,7 @@ import styles from "./HomepageFeatures.module.css";
 const FeatureList = [
   {
     title: "Terraform DevSecOps",
-    Svg: require("../../static/img/tf02.png").default,
+    Svg: require("../../static/img/tf02.svg").default,
     description: (
       <>
         <code>Deploy</code> end-to-end architectures that contain all the
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "CDK DevSecOps",
-    Svg: require("../../static/img/cdk-logo6-1260x476.png").default,
+    Svg: require("../../static/img/cdk-logo6-1260x476.svg").default,
     description: (
       <>
         <code>Deploy</code> end-to-end architectures that contain all the
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "CloudFormation DevSecOps",
-    Svg: require("../../static/img/cloudformation.png").default,
+    Svg: require("../../static/img/cloudformation.svg").default,
     description: (
       <>
         <code>Deploy</code> end-to-end architectures that contain all the
