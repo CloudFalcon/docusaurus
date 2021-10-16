@@ -4,31 +4,32 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "Architectures Catalog",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Terraform DevSecOps",
+    Svg: require("../../static/img/tf02.png").default,
     description: (
       <>
         <code>Deploy</code> end-to-end architectures that contain all the
-        services you need.
+        services you need using Terraform
       </>
     ),
   },
   {
-    title: "Services Catalog",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+    title: "CDK DevSecOps",
+    Svg: require("../../static/img/cdk-logo6-1260x476.png").default,
     description: (
       <>
-        <code>Deploy</code> off-the-shelf services, without writing any code.
+        <code>Deploy</code> end-to-end architectures that contain all the
+        services you need using CDK
       </>
     ),
   },
   {
-    title: "Terraform Modules Catalog",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    title: "CloudFormation DevSecOps",
+    Svg: require("../../static/img/cloudformation.png").default,
     description: (
       <>
-        list of tested battle prove community/AWS modules, and private custom
-        modules.
+        <code>Deploy</code> end-to-end architectures that contain all the
+        services you need using CloudFormation
       </>
     ),
   },
