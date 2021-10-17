@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import { InlineWidget } from "react-calendly";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,13 +14,12 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div> */}
+
+        <div className={styles.buttons}>
+          <div className="button button--secondary button--lg">
+            👋 Let's meet! - 30min ⏱️
+          </div>
+        </div>
       </div>
     </header>
   );
@@ -30,12 +30,13 @@ export default function Home() {
   return (
     <Layout
       title={`Salam from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Elegant DevSecOps"
     >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
+      <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
     </Layout>
   );
 }
