@@ -21,7 +21,7 @@ module.exports = {
       title: "CF",
       logo: {
         alt: "CF",
-        src: "img/cf-logo.png",
+        src: "img/logo/cf_logo_transparent.svg",
       },
       items: [
         {
