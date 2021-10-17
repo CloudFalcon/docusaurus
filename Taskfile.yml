@@ -3,6 +3,15 @@ version: '3'
 output: 'prefixed'
 
 tasks:
-  yarn:start:
+
+  start:
     cmds:
       - yarn start
+
+  build:
+    cmds:
+      - yarn build
+
+  serve:
+    cmds:
+      - yarn serve

@@ -13,6 +13,10 @@ module.exports = {
   organizationName: "cloudfalcon", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: "G-WTR4CERZPM",
+      anonymizeIP: false,
+    },
     navbar: {
       title: "CF",
       logo: {
