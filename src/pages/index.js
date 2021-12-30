@@ -5,7 +5,11 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import FontAwesomeIcons from "../components/FontAwesomeIcons";
+
 import { InlineWidget } from "react-calendly";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
