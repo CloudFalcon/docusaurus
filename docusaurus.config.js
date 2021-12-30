@@ -29,7 +29,7 @@ module.exports = {
       logo: {
         alt: "CF",
         src: "img/logo/cf_logo_transparent.svg",
-        width: 70,
+        // width: 70,
         height: 70,
       },
       items: [
