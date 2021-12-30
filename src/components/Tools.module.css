@@ -1,0 +1,16 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.ToolSvg {
+  height: 100px;
+  width: 100px;
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
