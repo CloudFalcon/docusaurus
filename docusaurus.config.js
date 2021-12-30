@@ -10,18 +10,27 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "cloudfalcon", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "cloudfalcon",
+  projectName: "docusaurus",
+  stylesheets: [
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://use.fontawesome.com/releases/v5.15.4/css/all.css",
+  ],
   themeConfig: {
-    googleAnalytics: {
-      trackingID: "G-WTR4CERZPM",
-      anonymizeIP: false,
-    },
+    hideableSidebar: true,
+    // algolia: {
+    //   apiKey: "f08db406ad33025362f1c13d44805854",
+    //   indexName: "cloudfalcon",
+    //   contextualSearch: true,
+    //   searchParameters: {},
+    // },
     navbar: {
-      title: "CF",
+      title: "",
       logo: {
         alt: "CF",
         src: "img/logo/cf_logo_transparent.svg",
+        width: 70,
+        height: 70,
       },
       items: [
         {
@@ -31,16 +40,22 @@ module.exports = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        // { to: "/links", label: "Links", position: "left" },
         { to: "/services", label: "Services", position: "left" },
-        // { to: "/podcasts", label: "Podcasts", position: "left" },
-        // { to: "/workshops", label: "Workshops", position: "left" },
-        // { to: "/slides", label: "Slides", position: "left" },
+        { to: "/courses", label: "Courses", position: "left" },
+        { to: "/podcasts", label: "Podcasts", position: "left" },
+        { to: "/workshops", label: "Workshops", position: "left" },
+        { to: "/slides", label: "Slides", position: "left" },
         { to: "/team", label: "Team", position: "left" },
         {
-          href: "https://github.com/cloudfalcon/",
-          label: "GitHub",
+          href: "https://github.com/cloudfalcon",
           position: "right",
+          className: "header-github-link",
+        },
+        {
+          href: "https://cloudfalcon.slack.com",
+          position: "right",
+          label: "Slack",
+          className: "fab fa-slack",
         },
       ],
     },
@@ -48,38 +63,30 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
               label: "LinkedIn",
               href: "https://www.linkedin.com/company/cloudfalcon",
             },
-            // {
-            //   label: "Stack Overflow",
-            //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            // },
-            // {
-            //   label: "Discord",
-            //   href: "https://discordapp.com/invite/docusaurus",
-            // },
-            // {
-            //   label: "Twitter",
-            //   href: "https://twitter.com/docusaurus",
-            // },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/mhmdyahya87",
+            },
+            {
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com/users/5532207/mohammed-yahya",
+            },
           ],
         },
         {
           title: "More",
           items: [
+            {
+              label: "Introduction",
+              to: "/docs/intro",
+              position: "right",
+            },
             {
               label: "Blog",
               to: "/blog",
@@ -91,17 +98,34 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CloudFalcon.`,
+      logo: {
+        alt: "CF",
+        src: "img/logo/cf_logo_transparent.svg",
+        width: 70,
+        height: 70,
+      },
+      copyright: `Copyright © 2015 - ${new Date().getFullYear()} CloudFalcon.<br>
+      <FontAwesomeIcon icon={faCoffee} /> Built with
+      <a href="https://Docusaurus.io">Docusaurus</a>, Hosted on
+      <a href="https://netlify.com/">Netlify</a>, Protected with
+      <a href="https://cloudflare.com/">Cloudflare</a>`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      additionalLanguages: ["hcl"],
+      theme: require("prism-react-renderer/themes/github"),
+      darkTheme: require("prism-react-renderer/themes/dracula"),
     },
   },
   presets: [
     [
       "@docusaurus/preset-classic",
+
       {
+        sitemap: {},
+        gtag: {
+          trackingID: "G-WTR4CERZPM",
+          anonymizeIP: false,
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -109,8 +133,11 @@ module.exports = {
             "https://github.com/cloudfalcon/docusaurus/edit/master/website/",
         },
         blog: {
+          blogTitle: "CloudFalcon Blog",
+          blogDescription: "DevSecOps Blog",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Posts",
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             "https://github.com/cloudfalcon/docusaurus/edit/master/website/blog/",
         },
