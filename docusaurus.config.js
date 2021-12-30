@@ -100,8 +100,8 @@ module.exports = {
       logo: {
         alt: "CF",
         src: "img/logo/cf_logo_transparent.svg",
-        width: 70,
-        height: 70,
+        // width: 70,
+        // height: 70,
       },
       copyright: `Copyright © 2015 - ${new Date().getFullYear()} CloudFalcon.<br>
       <FontAwesomeIcon icon={faCoffee} /> Built with
