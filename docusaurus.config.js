@@ -49,13 +49,12 @@ module.exports = {
         {
           href: "https://github.com/cloudfalcon",
           position: "right",
-          className: "header-github-link",
+          className: "fab fa-github fa-2x",
         },
         {
           href: "https://cloudfalcon.slack.com",
           position: "right",
-          label: "Slack",
-          className: "fab fa-slack",
+          className: "fab fa-slack fa-2x",
         },
       ],
     },
