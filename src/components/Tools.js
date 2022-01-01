@@ -56,9 +56,9 @@ const ToolList = [
 function Tool({ Svg, title }) {
   return (
     <div className={clsx("col col--1")}>
-      <div className="text--center">
-        <Svg className={styles.ToolSvg} alt={title} />
-      </div>
+      {/* <div className="text--center"> */}
+      <Svg className={styles.ToolSvg} alt={title} />
+      {/* </div> */}
       {/* <div className="text--center padding-horiz--md">
         <h4>{title}</h4>
       </div> */}

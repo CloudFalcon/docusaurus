@@ -6,11 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Tools from "../components/Tools";
-import FontAwesomeIcons from "../components/FontAwesomeIcons";
-
 import { InlineWidget } from "react-calendly";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -40,11 +36,11 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <hr class="dashed" />
+        <Tools />
+        <hr class="dashed" />
+        <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
       </main>
-      <hr class="dashed" />
-      <Tools />
-      <hr class="dashed" />
-      <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
     </Layout>
   );
 }
