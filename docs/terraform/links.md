@@ -4,7 +4,7 @@
 
 [https://github.com/antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform)
 
-## SaaS CICD for Terraform
+## SaaS CI/CD for Terraform
 
 - [https://www.env0.com/](https://www.env0.com/)
 - [https://scalr.com/](https://scalr.com/)
@@ -13,12 +13,12 @@
 
 ## SaaS Cost estimates for Terraform
 
-- infracost
+- [infracost](https://www.infracost.io/)
 - [https://terraform-cost-estimation.com/](https://terraform-cost-estimation.com/)
 
 ## SaaS SecOps for Terraform
 
-- bridgeCrew
+- [bridgeCrew](https://bridgecrew.io/)
 
 ## Terraform Workflow
 

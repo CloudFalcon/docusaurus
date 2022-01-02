@@ -42,7 +42,7 @@ tfenv install
 ```
 
 - add master account folder
-- use [terraform-aws-backend](../terraform/terraform-backend.md) module
+- use [terraform-aws-backend](../terraform/terraform-backend.mdx) module
 - use Makefile for aws-vault
 - use Makefile for TF ops
 
