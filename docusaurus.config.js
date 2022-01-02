@@ -123,7 +123,7 @@ module.exports = {
         sitemap: {},
         gtag: {
           trackingID: "G-WTR4CERZPM",
-          anonymizeIP: false,
+          anonymizeIP: true,
         },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
