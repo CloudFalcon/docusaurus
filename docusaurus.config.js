@@ -122,7 +122,7 @@ module.exports = {
       {
         sitemap: {},
         gtag: {
-          trackingID: "G-WTR4CERZPM",
+          trackingID: "G-4M3NDTZQDW",
           anonymizeIP: true,
         },
         docs: {
