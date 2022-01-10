@@ -2,15 +2,17 @@
 title: CF Team
 ---
 
-![team](../../../static/img/undraw/undraw_Meet_the_team_re_4h08.svg)
+<!-- ![team](../../../static/img/undraw/undraw_Meet_the_team_re_4h08.svg) -->
 
 ## Mohammed Yahya - Almusaddar
+محمد يحيى المصدر
 
 - ℹ️ **DevOps Engineer**
 - ℹ️ **AWS Community Builder**
 - ℹ️ **Co-organizer of Hamburg HashiCorp User Group**
 
-### Connect:
+### Connect
+
 - [Acclaim Badges/Certs](https://www.youracclaim.com/users/mohammed-almusaddar/badges)
 - [Fork on Github](https://github.com/mhmdio)
 - [Follow on Twitter](https://twitter.com/mhmdyahya87)
@@ -23,5 +25,6 @@ title: CF Team
 
 ---
 
-### Support:
+### Support
+
 - [Support with paypal.me](https://paypal.me/mhmdio)

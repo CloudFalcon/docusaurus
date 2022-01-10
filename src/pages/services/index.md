@@ -2,7 +2,7 @@
 title: Services
 ---
 
-![team](../../../static/img/undraw/undraw_server_down_s4lk.svg)
+<!-- ![team](../../../static/img/undraw/undraw_server_down_s4lk.svg) -->
 
 - **Foundations**
   - `Terraform Landing Zone`
