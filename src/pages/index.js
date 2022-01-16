@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Tools from "../components/Tools";
+import TFTools from "../components/TFTools";
 import { InlineWidget } from "react-calendly";
 
 function HomepageHeader() {
@@ -36,6 +37,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <TFTools />
         <hr class="dashed" />
         <Tools />
         <hr class="dashed" />

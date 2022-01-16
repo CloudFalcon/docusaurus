@@ -15,6 +15,11 @@ Very busy year on work side, and almost zero on Blogging and YouTube.
 - 7 new Clients
 - 10 new AWS and Terraform projects (almost new project each month)
 - +25 Projects on Automation using Bash and Docker
+- +15 job offers
+- collaborate with `env0` on features
+- collaborate with `Cloudrail` on test and feedback
+- collaborate with `Scalr` on module registry feature
+- read 3 books
 - 3 Workshops (Internals)
 - 0 Podcasts
 - 0 YouTube videos
