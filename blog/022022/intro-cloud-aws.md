@@ -15,3 +15,7 @@ I'm glad to share that I will coordinate and organize two days `bootcamp` event 
 We started with online session about 1:30 hrs about Cloud and AWS.
 
 In the session we explained what is Cloud Computing, and showed AWS Global Infrastructure.
+
+Attendances from 120 to 100.
+
+![zoom](zoom.png)
