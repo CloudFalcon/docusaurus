@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import Services from "../components/Services";
 import Tools from "../components/Tools";
 import TFTools from "../components/TFTools";
 import { InlineWidget } from "react-calendly";
@@ -40,6 +41,8 @@ export default function Home() {
         <TFTools />
         <hr class="dashed" />
         <Tools />
+        <hr class="dashed" />
+        <Services />
         <hr class="dashed" />
         <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
       </main>

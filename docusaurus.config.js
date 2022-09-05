@@ -4,25 +4,58 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "CloudFalcon",
-  tagline: "Automated and Secure Production-grade IaC Deployments on AWS",
   url: "https://cloudfalcon.io",
+  tagline: "Automated and Secure Production-grade IaC Deployments on AWS",
   baseUrl: "/",
+  favicon: "img/favicon.ico",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
   organizationName: "cloudfalcon",
   projectName: "docusaurus",
+  deploymentBranch: "main",
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        sitemap: {},
+        gtag: {
+          trackingID: "G-4M3NDTZQDW",
+          anonymizeIP: true,
+        },
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl:
+            "https://github.com/cloudfalcon/docusaurus/edit/master/website/",
+        },
+        blog: {
+          blogTitle: "CloudFalcon Blog",
+          blogDescription: "DevSecOps Blog",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Posts",
+          showReadingTime: true,
+          editUrl:
+            "https://github.com/cloudfalcon/docusaurus/edit/master/website/blog/",
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
+  ],
   stylesheets: [
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     "https://use.fontawesome.com/releases/v5.15.4/css/all.css",
   ],
   themeConfig: {
-    hideableSidebar: true,
     // algolia: {
-    //   apiKey: "f08db406ad33025362f1c13d44805854",
-    //   indexName: "cloudfalcon",
+    //   // The application ID provided by Algolia
+    //   appId: 'N5QXBXOP5V',
+    //   apiKey: '20ebcd9fbcf7377916800db33e4c0223',
+    //   indexName: 'cloudfalcon',
     //   contextualSearch: true,
+    //   externalUrlRegex: 'cloudfalcon\\.io',
     //   searchParameters: {},
+    //   searchPagePath: 'search',
     // },
     navbar: {
       title: "",
@@ -116,35 +149,4 @@ module.exports = {
       darkTheme: require("prism-react-renderer/themes/dracula"),
     },
   },
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-
-      {
-        sitemap: {},
-        gtag: {
-          trackingID: "G-4M3NDTZQDW",
-          anonymizeIP: true,
-        },
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/cloudfalcon/docusaurus/edit/master/website/",
-        },
-        blog: {
-          blogTitle: "CloudFalcon Blog",
-          blogDescription: "DevSecOps Blog",
-          blogSidebarCount: "ALL",
-          blogSidebarTitle: "All Posts",
-          showReadingTime: true,
-          editUrl:
-            "https://github.com/cloudfalcon/docusaurus/edit/master/website/blog/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      },
-    ],
-  ],
 };
