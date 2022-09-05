@@ -73,7 +73,6 @@ module.exports = {
           label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        { to: "/services", label: "Services", position: "left" },
         { to: "/clients", label: "Clients", position: "left" },
         { to: "/courses", label: "Courses", position: "left" },
         { to: "/podcasts", label: "Podcasts", position: "left" },
