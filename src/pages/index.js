@@ -18,11 +18,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <div className="button button--secondary button--lg">
             👋 Let's meet! - 30min ⏱️
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -37,12 +37,13 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <Services />
+        <hr class="dashed" />
         <HomepageFeatures />
         <TFTools />
         <hr class="dashed" />
+        {/* <h2>Tech Stack</h2> */}
         <Tools />
-        <hr class="dashed" />
-        <Services />
         <hr class="dashed" />
         <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
       </main>

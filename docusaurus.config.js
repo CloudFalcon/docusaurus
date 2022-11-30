@@ -3,10 +3,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "CloudFalcon",
   url: "https://cloudfalcon.io",
-  tagline: "Automated and Secure Production-grade IaC Deployments on AWS",
   baseUrl: "/",
+  title: "CloudFalcon",
+  tagline: "Automated and Secure Production-grade IaC Deployments on AWS",
   favicon: "img/favicon.ico",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -80,61 +80,71 @@ module.exports = {
         { to: "/slides", label: "Slides", position: "left" },
         { to: "/team", label: "Team", position: "left" },
         {
-          href: "https://github.com/cloudfalcon",
+          href: "https://www.linkedin.com/company/cloudfalcon",
           position: "right",
-          className: "fab fa-github fa-2x",
+          className: "fab fa-linkedin fa-2x",
+        },
+        {
+          href: "https://twitter.com/mhmdyahya87",
+          position: "right",
+          className: "fab fa-twitter fa-2x",
         },
         {
           href: "https://cloudfalcon.slack.com",
           position: "right",
           className: "fab fa-slack fa-2x",
         },
+        {
+          href: "https://github.com/cloudfalcon",
+          position: "right",
+          className: "fab fa-github fa-2x",
+        },
       ],
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "Community",
-          items: [
-            {
-              label: "LinkedIn",
-              href: "https://www.linkedin.com/company/cloudfalcon",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/mhmdyahya87",
-            },
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/users/5532207/mohammed-yahya",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Introduction",
-              to: "/docs/intro",
-              position: "right",
-            },
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/cloudfalcon/docusaurus",
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "LinkedIn",
+      //         href: "https://www.linkedin.com/company/cloudfalcon",
+      //       },
+      //       {
+      //         label: "Twitter",
+      //         href: "https://twitter.com/mhmdyahya87",
+      //       },
+      //       {
+      //         label: "Stack Overflow",
+      //         href: "https://stackoverflow.com/users/5532207/mohammed-yahya",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "Introduction",
+      //         to: "/docs/intro",
+      //         position: "right",
+      //       },
+      //       {
+      //         label: "Blog",
+      //         to: "/blog",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/cloudfalcon/docusaurus",
+      //       },
+      //     ],
+      //   },
+      // ],
       logo: {
         alt: "CF",
         src: "img/logo/cf_logo_transparent.svg",
-        // width: 70,
-        // height: 70,
+        width: 300,
+        height: 300,
       },
       copyright: `Copyright © 2015 - ${new Date().getFullYear()} CloudFalcon.<br>
       <FontAwesomeIcon icon={faCoffee} /> Built with

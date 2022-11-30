@@ -4,12 +4,12 @@ import styles from "./Services.module.css";
 
 const ServicesList = [
   {
-    title: "Foundations",
-    desc: "Landing zone, Baseline",
+    title: "Landing Zone",
+    desc: "Multi-Account Secure Setup",
   },
   {
-    title: "Networking",
-    desc: "VPC, DNS, Route53, VPN",
+    title: "Services Catalog",
+    desc: "VPC, DNS, RDS, Cache, MQ",
 
   },
   {
@@ -18,13 +18,8 @@ const ServicesList = [
 
   },
   {
-    title: "Compliance",
-    desc: "CIS Benchmark",
-
-  },
-  {
-    title: "Automations",
-    desc: "CICD",
+    title: "Platform Engineering",
+    desc: "CI/CD - Self Service",
 
   },
 ];
