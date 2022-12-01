@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Services from "../components/Services";
+import Partners from "../components/Partners";
 import Tools from "../components/Tools";
 import TFTools from "../components/TFTools";
 import { InlineWidget } from "react-calendly";
@@ -39,11 +40,33 @@ export default function Home() {
       <main>
         <Services />
         <hr class="dashed" />
+        <div className={clsx("col col--12")}>
+          <div className="text--center">
+            <h2>IaC Tools</h2>
+          </div>
+        </div>
         <HomepageFeatures />
+        <hr class="dashed" />
+        <div className={clsx("col col--12")}>
+          <div className="text--center">
+            <h2>Terraform Tools</h2>
+          </div>
+        </div>
         <TFTools />
         <hr class="dashed" />
-        {/* <h2>Tech Stack</h2> */}
+        <div className={clsx("col col--12")}>
+          <div className="text--center">
+          <h2>Tech Stack</h2>
+          </div>
+        </div>
         <Tools />
+        <hr class="dashed" />
+        <div className={clsx("col col--12")}>
+          <div className="text--center">
+          <h2>Services</h2>
+          </div>
+        </div>
+        <Partners />
         <hr class="dashed" />
         <InlineWidget url="https://calendly.com/mohammed-cloudfalcon/30min"></InlineWidget>
       </main>

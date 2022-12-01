@@ -19,16 +19,16 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: "DevSecOps",
-  //   Svg: require("../../static/img/cdk-logo6-1260x476.svg").default,
-  //   description: (
-  //     <>
-  //       <code>Deploy</code> end-to-end architectures that contain all the
-  //       services you need using CDK
-  //     </>
-  //   ),
-  // },
+  {
+    title: "DevSecOps",
+    Svg: require("../../static/img/cdk-logo6-1260x476.svg").default,
+    description: (
+      <>
+        <code>Deploy</code> end-to-end architectures that contain all the
+        services you need using CDK
+      </>
+    ),
+  },
   // {
   //   title: "DevSecOps",
   //   Svg: require("../../static/img/cloudformation.svg").default,
@@ -43,7 +43,7 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--12")}>
+    <div className={clsx("col col--6")}>
       <div className="text--center">
         <a href="https://terraform.io">
           <Svg className={styles.featureSvg} alt={title} />
