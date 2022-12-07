@@ -9,19 +9,29 @@ const PartnerList = [
     Svg: require("../../static/img/logo/aws.svg").default,
   },
   {
+    title: "CNCF",
+    url: "https://www.cncf.io/",
+    Svg: require("../../static/img/logo/cncf-icon.svg").default,
+  },
+  {
+    title: "HashiCorp",
+    url: "https://www.hashicorp.com/",
+    Svg: require("../../static/img/logo/hashicorp.svg").default,
+  },
+  {
     title: "Datadog",
     url: "https://www.datadoghq.com/",
     Svg: require("../../static/img/logo/datadog.svg").default,
   },
   {
-    title: "Twingate",
-    url: "https://www.twingate.com/",
-    Svg: require("../../static/img/logo/twingate.svg").default,
-  },
-  {
     title: "Vanta",
     url: "https://www.vanta.com/",
     Svg: require("../../static/img/logo/vanta-black.svg").default,
+  },
+  {
+    title: "Twingate",
+    url: "https://www.twingate.com/",
+    Svg: require("../../static/img/logo/twingate.svg").default,
   },
 ];
 

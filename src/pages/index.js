@@ -63,7 +63,7 @@ export default function Home() {
         <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
-          <h2>Services</h2>
+          <h2>Eco Systems</h2>
           </div>
         </div>
         <Partners />
