@@ -8,24 +8,25 @@ const FeatureList = [
     Svg: require("../../static/img/tf02.svg").default,
     description: (
       <>
-        <code>Deploy</code> end-to-end architectures that contain all the{" "}
-        <code>
-          <a href="/services">services</a>
-        </code>{" "}
-        you need using{" "}
-        <code>
-          <a href="https://terraform.io">Terraform</a>
-        </code>
+        <code>Automate</code> Infrastructure on Any Cloud and <code>Provision</code>, change, and version resources on any environment
       </>
     ),
   },
   {
     title: "DevSecOps",
-    Svg: require("../../static/img/cdk-logo6-1260x476.svg").default,
+    Svg: require("../../static/img/logo/pulumi.svg").default,
     description: (
       <>
-        <code>Deploy</code> end-to-end architectures that contain all the
-        services you need using CDK
+        <code>Deliver</code> infrastructure with high velocity and scale through software engineering.
+      </>
+    ),
+  },
+  {
+    title: "DevSecOps",
+    Svg: require("../../static/img/logo/crossplane-horizontal-color.svg").default,
+    description: (
+      <>
+        <code>Build</code> control planes without needing to write code
       </>
     ),
   },
@@ -43,7 +44,7 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--6")}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <a href="https://terraform.io">
           <Svg className={styles.featureSvg} alt={title} />

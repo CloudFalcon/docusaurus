@@ -42,7 +42,7 @@ export default function Home() {
         <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
-            <h2>IaC Tools</h2>
+            <h2>IaC vendor-neutral Tools</h2>
           </div>
         </div>
         <HomepageFeatures />
