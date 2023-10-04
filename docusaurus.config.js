@@ -44,7 +44,7 @@ module.exports = {
   ],
   stylesheets: [
     "https://fonts.googleapis.com/icon?family=Material+Icons",
-    "https://use.fontawesome.com/releases/v5.15.4/css/all.css",
+    "https://use.fontawesome.com/releases/v6.4.2/css/all.css",
   ],
   themeConfig: {
     // algolia: {
@@ -72,7 +72,12 @@ module.exports = {
         //   position: "left",
         //   label: "Docs",
         // },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          to: "/blog",
+          label: " Blog",
+          position: "left",
+          // className: "fab fa-blogger fa-1x",
+        },
         // { to: "/clients", label: "Clients", position: "left" },
         // { to: "/courses", label: "Courses", position: "left" },
         // { to: "/podcasts", label: "Podcasts", position: "left" },
@@ -87,7 +92,7 @@ module.exports = {
         {
           href: "https://www.youtube.com/@mhmdio",
           position: "right",
-          className: "fab fa-youtube fa-2x",
+          className: "fab fa-square-youtube fa-2x",
         },
         {
           href: "https://www.linkedin.com/in/mhmdio/",
@@ -97,7 +102,7 @@ module.exports = {
         {
           href: "https://twitter.com/mohammed87yahya",
           position: "right",
-          className: "fab fa-twitter fa-2x",
+          className: "fab fa-square-x-twitter fa-2x",
         },
         {
           href: "https://cloudfalcon.slack.com",
