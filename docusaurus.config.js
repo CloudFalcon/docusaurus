@@ -66,12 +66,12 @@ module.exports = {
         // height: 70,
       },
       items: [
-        {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Docs",
-        },
+        // {
+        //   type: "doc",
+        //   docId: "intro",
+        //   position: "left",
+        //   label: "Docs",
+        // },
         { to: "/blog", label: "Blog", position: "left" },
         // { to: "/clients", label: "Clients", position: "left" },
         // { to: "/courses", label: "Courses", position: "left" },
@@ -80,7 +80,12 @@ module.exports = {
         // { to: "/slides", label: "Slides", position: "left" },
         // { to: "/team", label: "Team", position: "left" },
         {
-          href: "https://www.youtube.com/channel/UCbwcohrMkjVdG2dxHPHfElw",
+          href: "https://github.com/mhmdio",
+          position: "right",
+          className: "fab fa-brands fa-github-alt fa-2x",
+        },
+        {
+          href: "https://www.youtube.com/@mhmdio",
           position: "right",
           className: "fab fa-youtube fa-2x",
         },
@@ -90,7 +95,7 @@ module.exports = {
           className: "fab fa-linkedin fa-2x",
         },
         {
-          href: "https://twitter.com/mhmdyahya87",
+          href: "https://twitter.com/mohammed87yahya",
           position: "right",
           className: "fab fa-twitter fa-2x",
         },
@@ -145,12 +150,12 @@ module.exports = {
       //     ],
       //   },
       // ],
-      logo: {
-        alt: "CF",
-        src: "img/logo/cf_logo_transparent.svg",
-        width: 300,
-        height: 300,
-      },
+      // logo: {
+      //   alt: "CF",
+      //   src: "img/logo/cf_logo_transparent.svg",
+      //   width: 100,
+      //   height: 100,
+      // },
       copyright: `Copyright © 2015 - ${new Date().getFullYear()} CloudFalcon.<br>
       <FontAwesomeIcon icon={faCoffee} /> Built with
       <a href="https://Docusaurus.io">Docusaurus</a>, Hosted on
@@ -159,8 +164,8 @@ module.exports = {
     },
     prism: {
       additionalLanguages: ["hcl"],
-      theme: require("prism-react-renderer/themes/github"),
-      darkTheme: require("prism-react-renderer/themes/dracula"),
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
     },
   },
 };

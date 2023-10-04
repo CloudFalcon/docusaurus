@@ -37,7 +37,7 @@ const PartnerList = [
 
 function Partner({ Svg, title, url }) {
   return (
-    <div className={clsx("col col--3")}>
+    <div className={clsx("col col--2")}>
       <div className="text--center">
         <a href={url}>
           <Svg className={styles.ToolSvg} alt={title} />

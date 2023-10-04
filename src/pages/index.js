@@ -42,28 +42,28 @@ export default function Home() {
         <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
-            <h2>IaC vendor-neutral Tools</h2>
+            <h2>Infrastructure as code Tools</h2>
           </div>
         </div>
         <HomepageFeatures />
-        <hr class="dashed" />
+        {/* <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
             <h2>Terraform Tools</h2>
           </div>
         </div>
-        <TFTools />
+        <TFTools /> */}
         <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
-          <h2>Tech Stack</h2>
+            <h2>Tech Stack</h2>
           </div>
         </div>
         <Tools />
         <hr class="dashed" />
         <div className={clsx("col col--12")}>
           <div className="text--center">
-          <h2>Eco Systems</h2>
+            <h2>Tech Systems</h2>
           </div>
         </div>
         <Partners />

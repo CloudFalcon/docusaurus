@@ -10,17 +10,14 @@ const ServicesList = [
   {
     title: "Services Catalog",
     desc: "VPC, DNS, RDS, Cache, MQ",
-
   },
   {
     title: "RefArchs",
     desc: "EC2, ECS, EKS",
-
   },
   {
     title: "Platform Engineering",
     desc: "CI/CD - Self Service",
-
   },
 ];
 
@@ -28,9 +25,7 @@ function Service({ title, desc }) {
   return (
     <div className={clsx("col col--3")}>
       <div className="text--center">
-        <h2>
-          {title}
-        </h2>
+        <h2>{title}</h2>
       </div>
       <div class="alert alert--success" role="alert">
         IaC <strong>{desc}</strong>
