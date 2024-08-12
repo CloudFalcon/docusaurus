@@ -8,7 +8,9 @@ tags: [VSCode, extensions, Terraform]
 ---
 
 VSCode has become one of the popular Text editor now days, and one of the primary tools for DevOps Engineers to develop their solutions and running tasks. Using Terraform with VSCode can be productive and useful when you check the following 15 VSCode extensions to supercharged your Terraform Development.
+
 <!--truncate-->
+
 ![vscode-terraform](./vscode-terraform.png)
 
 ## Notes
@@ -110,7 +112,7 @@ View a Git Graph of your repository, and perform Git actions from the graph.
 
 ## 7. gitignore
 
-Language support for .gitignore files. Lets you pull .gitignore files from the <https://github.com/github/gitignore> repository.
+Language support for .gitignore files. Lets you pull .gitignore files from the https://github.com/github/gitignore repository.
 
 - **[Install](vscode:extension/codezombiech.gitignore)**
 - **[Marketplace Link](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)**

@@ -8,18 +8,20 @@ tags: [VSCode, AWS, Cloud9]
 ---
 
 There are great benefits from using Cloud9, especially with Terraform, it’s super-fast since the connection to AWS API happens internally, I was facing terraform apply took up to 15 minutes on my machine, now when running the same commands on cloud9 it’s only 15 seconds!
+
 <!--truncate-->
+
 The Cloud9 UI is nice, but you can still VScode with all of your extensions with cloud 9, using remote ssh extension.
 
 ## Remote Development using SSH
 
-![](https://code.visualstudio.com/assets/docs/remote/ssh/architecture-ssh.png)
+![a](https://code.visualstudio.com/assets/docs/remote/ssh/architecture-ssh.png)
 
 ## How to connect to Cloud9 EC2 instance from local VSCode
 
 1. Create Cloud9 EC2 instance
 2. Open port 22 on cloud9 SG from your IP
-3. Install ssh remote ext <https://code.visualstudio.com/docs/remote/ssh>
+3. Install ssh remote ext https://code.visualstudio.com/docs/remote/ssh
 4. Setup SSH key locally
 
 ```bash

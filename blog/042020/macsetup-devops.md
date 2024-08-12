@@ -8,7 +8,9 @@ tags: [MacBookPro, DevOps]
 ---
 
 I bought a new MacBookPro 16 inch for my DevOps tasks, and since we are talking about DevOps, we should automate everything, even our own setups, so in this post I'm going to describe my MBP setup automation.
+
 <!--truncate-->
+
 ![mbp16](./mbp16.jpg)
 
 ## Note
@@ -471,7 +473,7 @@ brew cask install keka
 
 ---
 
-## VIMRC - <https://github.com/amix/vimrc>
+## VIMRC - https://github.com/amix/vimrc
 
 The Ultimate vimrc
 
@@ -482,7 +484,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 ### Modern Replacements
 
-#### fd - <https://github.com/sharkdp/fd>
+#### fd - https://github.com/sharkdp/fd
 
 A simple, fast and user-friendly alternative to 'find'
 
@@ -490,7 +492,7 @@ A simple, fast and user-friendly alternative to 'find'
 brew install fd
 ```
 
-#### ripgrep - <https://github.com/BurntSushi/ripgrep>
+#### ripgrep - https://github.com/BurntSushi/ripgrep
 
 ripgrep recursively searches directories for a regex pattern
 
@@ -498,7 +500,7 @@ ripgrep recursively searches directories for a regex pattern
 brew install ripgrep
 ```
 
-#### procs - <https://github.com/dalance/procs>
+#### procs - https://github.com/dalance/procs
 
 A modern replacement for ps written in Rust
 
@@ -560,7 +562,7 @@ Results:
 
 ## DevOps
 
-### Node.js - <https://nodejs.org/en>
+### Node.js - https://nodejs.org/en
 
 Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
@@ -568,7 +570,7 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 brew install node nvm yarn
 ```
 
-### Gatsby - <https://www.gatsbyjs.org/>
+### Gatsby - https://www.gatsbyjs.org/
 
 Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.
 
@@ -576,14 +578,14 @@ Gatsby is a free and open source framework based on React that helps developers 
 brew install gatsby-cli
 ```
 
-### Python - <https://www.python.org>
+### Python - https://www.python.org
 
 ```bash
 brew install python
 brew install pyenv pyenv-virtualenv
 ```
 
-### Go - <https://golang.org/>
+### Go - https://golang.org/
 
 ```bash
 brew install go
@@ -597,7 +599,7 @@ brew tap aws/tap
 brew install aws-sam-cli
 ```
 
-#### aws-vault - <https://github.com/99designs/aws-vault>
+#### aws-vault - https://github.com/99designs/aws-vault
 
 AWS Vault is a tool to securely store and access AWS credentials in a development environment.
 
@@ -612,7 +614,7 @@ npm install -g @aws-amplify/cli
 amplify configure
 ```
 
-### GitHub Cli - <https://cli.github.com>
+### GitHub Cli - https://cli.github.com
 
 Take GitHub to the command line
 
@@ -622,13 +624,13 @@ Take GitHub to the command line
 brew install github/gh/gh
 ```
 
-### Ansible - <https://www.ansible.com>
+### Ansible - https://www.ansible.com
 
 ```bash
 brew install ansible ansible-lint
 ```
 
-### HashiCorp - <https://www.hashicorp.com>
+### HashiCorp - https://www.hashicorp.com
 
 ```bash
 brew install terraform
@@ -661,7 +663,7 @@ credentials "app.terraform.io" {
 EOF
 ```
 
-### kubernetes - <https://kubernetes.io>
+### kubernetes - https://kubernetes.io
 
 Production-Grade Container Orchestration. Automated container deployment, scaling, and management
 
@@ -670,7 +672,7 @@ brew install kubernetes-cli
 brew install minikube
 ```
 
-#### miniKube - <https://minikube.sigs.k8s.io/docs/>
+#### miniKube - https://minikube.sigs.k8s.io/docs/
 
 minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows.
 
@@ -678,7 +680,7 @@ minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 brew install minikube
 ```
 
-#### Helm - <https://helm.sh/>
+#### Helm - https://helm.sh/
 
 The package manager for Kubernetes
 
@@ -686,7 +688,7 @@ The package manager for Kubernetes
 brew install helm
 ```
 
-### Docker - <https://www.docker.com>
+### Docker - https://www.docker.com
 
 Securely build and share any application, anywhere
 
@@ -1156,7 +1158,7 @@ module.exports = {
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
-}
+};
 ```
 
 ---

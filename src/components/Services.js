@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./Services.module.css";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
 const ServicesList = [
   {
@@ -17,6 +18,7 @@ const ServicesList = [
   },
   {
     title: "Platform Engineering",
+    icon: "fas fa-rocket",
     desc: "CI/CD - Self Service",
   },
 ];
@@ -26,6 +28,7 @@ function Service({ title, desc }) {
     <div className={clsx("col col--3")}>
       <div className="text--center">
         <h2>{title}</h2>
+        <h1></h1>
       </div>
       <div class="alert alert--success" role="alert">
         IaC <strong>{desc}</strong>

@@ -1,12 +1,10 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   url: "https://cloudfalcon.io",
   baseUrl: "/",
   title: "CloudFalcon",
-  tagline: "Automated and Secure Production-grade IaC Deployments on AWS",
+  tagline: "Production-grade IaC Deployments on AWS, Azure, and GCP",
   favicon: "img/favicon.ico",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -166,11 +164,6 @@ module.exports = {
       <a href="https://Docusaurus.io">Docusaurus</a>, Hosted on
       <a href="https://netlify.com/">Netlify</a>, Protected with
       <a href="https://cloudflare.com/">Cloudflare</a>`,
-    },
-    prism: {
-      additionalLanguages: ["hcl"],
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
     },
   },
 };

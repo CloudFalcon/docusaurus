@@ -2,7 +2,7 @@
 
 ## AWS Ops
 
-- yq <https://mikefarah.gitbook.io/yq/>
+- yq https://mikefarah.gitbook.io/yq/
 
 ## MKDocs
 
@@ -37,5 +37,5 @@ tfenv use min-required
 
 echo 'installing infracost'
 brew install infracost
-infracost register 
+infracost register
 ```

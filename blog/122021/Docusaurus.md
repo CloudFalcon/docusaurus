@@ -7,10 +7,11 @@ authors: mhmdio
 tags: [Docusaurus, Migrate]
 ---
 
-I have migrated from [Gatsby](https://www.gatsbyjs.com/) to [Docusaurus](https://docusaurus.io/) for the blog from my old blog <https://mhmd.io>.
+I have migrated from [Gatsby](https://www.gatsbyjs.com/) to [Docusaurus](https://docusaurus.io/) for the blog from my old blog https://mhmd.io.
+
 <!--truncate-->
 
-And also from [mkdocs](https://www.mkdocs.org/) to [Docusaurus](https://docusaurus.io/) for the wiki and documentation from <https://docs.mhmd.io>
+And also from [mkdocs](https://www.mkdocs.org/) to [Docusaurus](https://docusaurus.io/) for the wiki and documentation from https://docs.mhmd.io
 
 Now I can manage the website, blog, and documentation using [Docusaurus](https://docusaurus.io/) only which based on [React](https://reactjs.org/).
 

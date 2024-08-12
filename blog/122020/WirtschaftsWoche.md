@@ -8,3 +8,5 @@ tags: [WirtschaftsWoche, “Technology”]
 ---
 
 🏎 We won 2nd for “Best of Consultancy” in “Technology” with the distinguished publication `WirtschaftsWoche`.
+
+<!-- truncate -->

@@ -6,6 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
 import Services from "../components/Services";
+import Clouds from "../components/Clouds";
 import Partners from "../components/Partners";
 import Tools from "../components/Tools";
 import TFTools from "../components/TFTools";
@@ -38,6 +39,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
+        <Clouds />
         <Services />
         <hr class="dashed" />
         <div className={clsx("col col--12")}>

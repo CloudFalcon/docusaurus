@@ -1,6 +1,6 @@
 # Harbor
 
-- :fontawesome-brands-github:  @goharbor/harbor
+- :fontawesome-brands-github: @goharbor/harbor
 
 ## Demo with Helm and Minikube
 
@@ -19,7 +19,7 @@ kubectl get ingress
 
 ### Access
 
-- <https://core.harbor.domain/>
+- https://core.harbor.domain
 - username admin
 - password Harbor12345
 
@@ -32,12 +32,12 @@ kubectl get ingress
 ## Docker login
 
 ```bash
-docker login -umhmdio core.harbor.domain 
-Password: 
+docker login -umhmdio core.harbor.domain
+Password:
 # Error response from daemon: Get https://core.harbor.domain/v2/: x509: certificate signed by unknown authority
 # Download ca.crt from Project
 security add-trusted-cert -d -r trustRoot -k ~/Library/Keychains/login.keychain ./ca.crt
-docker login -umhmdio core.harbor.domain 
+docker login -umhmdio core.harbor.domain
 
 ```
 
